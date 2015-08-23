@@ -1,0 +1,109 @@
+* {
+    color: #fff;
+    font-family: Georgia, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/background.jpg) #0D0D0D top center;
+    background-size: cover;
+}
+
+h1, h2, .join, .actions {
+    text-align: center;
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 90px;
+    margin-bottom: 0;
+    text-transform: lowercase;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.divider {
+    margin: 20px auto 40px;
+    width: 70%;
+    border-bottom: 7px solid #fff;
+}
+
+.join {
+    text-align: center;
+}
+
+.join > a {
+    border: 4px solid #fff;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 36px;
+    padding: 16px 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.actions {
+    list-style: none;
+    margin: 50px 0 0;
+    padding: 0;
+}
+
+.action {
+    float: left;
+    margin: 0 1%;
+    padding: 0;
+    width: 14%;
+}
+
+.action .primary {
+    display: block;
+    height: 160px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.action .secondary {
+    display: block;
+    margin: 10px auto 0;
+    width: 100%;
+    height: 60px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.facebook { background-image: url(images/facebook.png); }
+.instagram { background-image: url(images/instagram.png); }
+.shopping-cart { background-image: url(images/shopping-cart.png); }
+.soundcloud { background-image: url(images/soundcloud.png); }
+.twitter { background-image: url(images/twitter.png); }
+.youtube { background-image: url(images/youtube.png); }
+
+.follow { background-image: url(images/follow.png); }
+.like { background-image: url(images/like.png); }
+.subscribe { background-image: url(images/subscribe.png); }
+
+@media (max-width: 800px) {
+    .action {
+        width: 48%;
+        margin: 0 1%;
+        padding-bottom: 90px;
+    }
+}
+
+@media (max-width: 500px) {
+    .action {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 90px;
+    }
+}
