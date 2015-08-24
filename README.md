@@ -1,1 +1,1 @@
-Source for [krisclarkemusic.com](krisclarkemusic.com).
+Source for [krisclarkemusic.com](http://krisclarkemusic.com).
