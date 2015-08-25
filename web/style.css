@@ -91,6 +91,7 @@ h2 {
 
 .follow { background-image: url(images/follow.png); }
 .like { background-image: url(images/like.png); }
+.shop { background-image: url(images/shop.png); }
 .subscribe { background-image: url(images/subscribe.png); }
 
 @media (max-width: 800px) {
